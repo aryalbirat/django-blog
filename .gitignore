@@ -1,0 +1,59 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+staticfiles/
+media/
+
+# Database
+*.sqlite3
+*.db
+
+# Virtualenv
+venv/
+ENV/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Test
+.tox/
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Other
+*.swp
+*.swo
+
+# Secret files
+secrets.json
